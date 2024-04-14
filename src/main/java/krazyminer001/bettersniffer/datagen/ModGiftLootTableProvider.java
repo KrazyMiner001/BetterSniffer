@@ -1,6 +1,7 @@
 package krazyminer001.bettersniffer.datagen;
 
 import krazyminer001.bettersniffer.blocks.ModBlocks;
+import krazyminer001.bettersniffer.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.SimpleFabricLootTableProvider;
 import net.minecraft.item.Items;
@@ -29,6 +30,10 @@ public class ModGiftLootTableProvider extends SimpleFabricLootTableProvider {
                         .with(ItemEntry.builder(ModBlocks.CYAN_ROSE))
                         .with(ItemEntry.builder(ModBlocks.ROSE))
                         .with(ItemEntry.builder(ModBlocks.PIGSFACE))
+                        .with(ItemEntry.builder(ModItems.ENVY_ZINNIA_SEEDS))
+                        .with(ItemEntry.builder(ModItems.HYACINTH_SEEDS))
+                        .with(ItemEntry.builder(ModItems.BLUEBELL_SEEDS))
+                        .with(ItemEntry.builder(ModBlocks.LAVENDER))
                 ));
     }
 }

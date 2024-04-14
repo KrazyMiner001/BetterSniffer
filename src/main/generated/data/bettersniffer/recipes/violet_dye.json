@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bettersniffer:lavender"
+    }
+  ],
+  "result": {
+    "item": "bettersniffer:violet_dye"
+  }
+}

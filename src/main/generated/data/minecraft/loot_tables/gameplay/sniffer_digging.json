@@ -23,6 +23,22 @@
         {
           "type": "minecraft:item",
           "name": "bettersniffer:pigsface"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bettersniffer:envy_zinnia_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bettersniffer:hyacinth_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bettersniffer:bluebell_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bettersniffer:lavender"
         }
       ],
       "rolls": 1.0

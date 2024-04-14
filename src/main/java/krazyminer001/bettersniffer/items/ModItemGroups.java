@@ -25,6 +25,10 @@ public class ModItemGroups {
                 entries.add(ModItems.ROSE_COLORED_DYE);
                 entries.add(ModItems.ROSE_DYE);
                 entries.add(ModItems.CHARTREUSE_DYE);
+                entries.add(ModItems.SPRING_GREEN_DYE);
+                entries.add(ModItems.CAPRI_DYE);
+                entries.add(ModItems.ULTRAMARINE_DYE);
+                entries.add(ModItems.VIOLET_DYE);
 
                 entries.add(ModItems.ENVY_ZINNIA_SEEDS);
                 entries.add(ModItems.HYACINTH_SEEDS);

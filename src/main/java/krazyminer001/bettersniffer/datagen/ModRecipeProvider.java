@@ -24,6 +24,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         dyeRecipe(exporter, ModItems.ROSE_COLORED_DYE, ModItems.ROSE_DYE);
         dyeRecipe(exporter, ModBlocks.PIGSFACE.asItem(), ModItems.CHARTREUSE_DYE);
         dyeRecipe(exporter, ModItems.PIGSFACE_PETAL, Items.MAGENTA_DYE);
+        dyeRecipe(exporter, ModBlocks.ENVY_ZINNIA.asItem(), ModItems.SPRING_GREEN_DYE);
+        dyeRecipe(exporter, ModBlocks.HYACINTH.asItem(), ModItems.CAPRI_DYE);
+        dyeRecipe(exporter, ModBlocks.BLUEBELL.asItem(), ModItems.ULTRAMARINE_DYE);
+        dyeRecipe(exporter, ModBlocks.LAVENDER.asItem(), ModItems.VIOLET_DYE);
 
     }
 

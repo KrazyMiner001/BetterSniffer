@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_envy_zinnia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bettersniffer:envy_zinnia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bettersniffer:spring_green_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_envy_zinnia",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bettersniffer:spring_green_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

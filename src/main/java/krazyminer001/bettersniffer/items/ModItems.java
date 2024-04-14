@@ -4,6 +4,7 @@ import krazyminer001.bettersniffer.BetterSniffer;
 import krazyminer001.bettersniffer.blocks.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.DyeItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -17,6 +18,14 @@ public class ModItems {
     public static final Item ROSE_DYE = registerItem("rose_dye",
             new Item(new FabricItemSettings()));
     public static final Item CHARTREUSE_DYE = registerItem("chartreuse_dye",
+            new Item(new FabricItemSettings()));
+    public static final Item SPRING_GREEN_DYE = registerItem("spring_green_dye",
+            new Item(new FabricItemSettings()));
+    public static final Item CAPRI_DYE = registerItem("capri_dye",
+            new Item(new FabricItemSettings()));
+    public static final Item ULTRAMARINE_DYE = registerItem("ultramarine_dye",
+            new Item(new FabricItemSettings()));
+    public static final Item VIOLET_DYE = registerItem("violet_dye",
             new Item(new FabricItemSettings()));
     public static final Item ENVY_ZINNIA_SEEDS = registerItem("envy_zinnia_seeds",
             new BlockItem(ModBlocks.ENVY_ZINNIA_CROP, new FabricItemSettings()));

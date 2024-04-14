@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bettersniffer:bluebell"
+    }
+  ],
+  "result": {
+    "item": "bettersniffer:ultramarine_dye"
+  }
+}

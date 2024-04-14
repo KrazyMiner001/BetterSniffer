@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bettersniffer:envy_zinnia"
+    }
+  ],
+  "result": {
+    "item": "bettersniffer:spring_green_dye"
+  }
+}

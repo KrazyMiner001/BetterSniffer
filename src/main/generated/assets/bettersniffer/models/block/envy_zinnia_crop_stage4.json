@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/crop",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "crop": "bettersniffer:block/envy_zinnia_crop_stage4"
+    "cross": "bettersniffer:block/envy_zinnia_crop_stage4"
   }
 }

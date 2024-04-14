@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/crop",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "crop": "bettersniffer:block/hyacinth_crop_stage5"
+    "cross": "bettersniffer:block/hyacinth_crop_stage5"
   }
 }

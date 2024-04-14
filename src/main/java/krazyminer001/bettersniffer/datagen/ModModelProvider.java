@@ -30,8 +30,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BLUEBELL, ModBlocks.POTTED_BLUEBELL, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.LAVENDER, ModBlocks.POTTED_LAVENDER, BlockStateModelGenerator.TintType.NOT_TINTED);
 
-        blockStateModelGenerator.registerCrop(ModBlocks.ENVY_ZINNIA_CROP, Properties.AGE_7, 0, 1, 2, 3, 4, 5, 6 ,7);
-        blockStateModelGenerator.registerCrop(ModBlocks.HYACINTH_CROP, Properties.AGE_7, 0, 1, 2, 3, 4, 5, 6, 7);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.ENVY_ZINNIA_CROP, BlockStateModelGenerator.TintType.NOT_TINTED , Properties.AGE_7, 0, 1, 2, 3, 4, 5, 6 ,7);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.HYACINTH_CROP, BlockStateModelGenerator.TintType.NOT_TINTED, Properties.AGE_7, 0, 1, 2, 3, 4, 5, 6, 7);
     }
 
     @Override

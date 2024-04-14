@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bettersniffer:pigsface"
+    }
+  ],
+  "result": {
+    "item": "bettersniffer:chartreuse_dye"
+  }
+}

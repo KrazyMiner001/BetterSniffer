@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "bettersniffer:block/sheared_pigsface"
+  }
+}

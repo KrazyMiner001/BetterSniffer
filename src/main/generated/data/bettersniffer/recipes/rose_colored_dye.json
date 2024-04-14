@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bettersniffer:rose"
+    }
+  ],
+  "result": {
+    "item": "bettersniffer:rose_colored_dye"
+  }
+}

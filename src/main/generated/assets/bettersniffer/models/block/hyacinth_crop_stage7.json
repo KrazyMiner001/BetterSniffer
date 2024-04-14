@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bettersniffer:block/hyacinth_crop_stage7"
+  }
+}

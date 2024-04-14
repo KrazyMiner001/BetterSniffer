@@ -1,5 +1,8 @@
 package krazyminer001.bettersniffer;
 
+import krazyminer001.bettersniffer.blocks.ModBlocks;
+import krazyminer001.bettersniffer.items.ModItemGroups;
+import krazyminer001.bettersniffer.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +14,8 @@ public class BetterSniffer implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }

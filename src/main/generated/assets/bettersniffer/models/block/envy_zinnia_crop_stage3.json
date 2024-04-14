@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bettersniffer:block/envy_zinnia_crop_stage3"
+  }
+}
